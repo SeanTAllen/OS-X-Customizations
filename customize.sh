@@ -4,12 +4,11 @@
 defaults write com.apple.dashboard mcx-disabled -boolean YES 
 
 ### make the dock as unobtrusive as possible
-# defaults write com.apple.dock tilesize -int 1
-# defaults write com.apple.dock pinning -string start
+defaults write com.apple.dock tilesize -int 1
+defaults write com.apple.dock pinning -string start
 
-### removes the dock entirely
-sudo rm -rf /System/Library/CoreServices/Dock.app
-killall Dock
+### removes the dock entirely <= beware there be dragons here
+# sudo rm -rf /System/Library/CoreServices/Dock.app
 
 # turn off creation of .DS_Store on network drives
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
