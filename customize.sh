@@ -15,3 +15,7 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 # tcp segment size to something more 'modern'
 sudo sysctl -w net.inet.tcp.mssdflt=1460
+
+# modify boot time images
+sudo cp BootLogo.png /System/Library/CoreServices/
+sudo cp DefaultDesktop /System/Library/CoreServices/
