@@ -12,3 +12,6 @@ brew cask install flux
 brew cask install iterm2
 brew cask install sparrow
 
+# install vim with ruby support for command-t
+brew install https://raw.github.com/Homebrew/homebrew-dupes/master/vim.rb
+
