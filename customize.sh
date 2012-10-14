@@ -90,6 +90,9 @@ defaults write com.apple.iTunes disablePing -bool true
 sudo cp Solarized-Darker.png "/Library/Desktop Pictures/Solid Colors/"
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "/Library/Desktop Pictures/Solid Colors/Solarized-Darker.png"; };}'
 
+# Show standard unix directories in finder
+sudo chflags nohidden /bin /etc /usr
+
 # Kill affected applications
 for app in Safari Finder Dock Mail SystemUIServer; do killall "$app" > /dev/null 2>&1; done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
