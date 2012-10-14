@@ -42,6 +42,7 @@ brew install ssh-copy-id
 brew install tmux
 brew install wget
 brew install zsh
+brew install hub
 
 # install vim with ruby support for command-t
 brew install https://raw.github.com/Homebrew/homebrew-dupes/master/vim.rb
