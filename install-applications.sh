@@ -3,6 +3,7 @@
 # install homebrew and cask
 ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 brew tap phinze/homebrew-cask
+brew tap homebrew/dupes
 brew install brew-cask
 
 brew cask install google-chrome 
