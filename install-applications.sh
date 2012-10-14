@@ -18,6 +18,7 @@ brew cask install flux
 brew cask install iterm2
 brew cask install sparrow
 brew cask install the-unarchiver
+brew cask install sublime-text
 
 brew install perl
 brew install python
