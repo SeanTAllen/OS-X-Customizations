@@ -22,6 +22,7 @@ brew install perl
 brew install python
 brew install ruby
 
+brew install bazaar
 brew install git
 brew install mercurial
 brew install subversion
