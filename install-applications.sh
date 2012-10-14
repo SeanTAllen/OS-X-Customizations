@@ -17,6 +17,7 @@ brew cask install firefox
 brew cask install flux
 brew cask install iterm2
 brew cask install sparrow
+brew cask install the-unarchiver
 
 brew install perl
 brew install python
