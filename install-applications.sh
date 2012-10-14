@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# install homebrew and cask
+ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+brew tap phinze/homebrew-cask
+brew install brew-cask
+
 brew cask install google-chrome 
 brew cask install one-password
 brew cask install adium
