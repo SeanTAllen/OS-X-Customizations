@@ -14,4 +14,6 @@ brew cask install sparrow
 
 # install vim with ruby support for command-t
 brew install https://raw.github.com/Homebrew/homebrew-dupes/master/vim.rb
+# install macvim with ruby support for command-t
+brew install macvim
 
