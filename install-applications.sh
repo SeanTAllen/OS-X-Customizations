@@ -12,6 +12,29 @@ brew cask install flux
 brew cask install iterm2
 brew cask install sparrow
 
+brew install perl
+brew install python
+brew install ruby
+
+brew install mercurial
+brew install subversion
+
+brew install ack
+brew install colordiff
+brew install curl
+brew install emacs
+brew install findbugs
+brew install ncftp
+brew install openssl
+brew install p7zip
+brew install pdfgrep
+brew install reattach-to-user-namespace
+brew install rlwrap
+brew install ssh-copy-id
+brew install tmux
+brew install wget
+brew install zsh
+
 # install vim with ruby support for command-t
 brew install https://raw.github.com/Homebrew/homebrew-dupes/master/vim.rb
 # install macvim with ruby support for command-t
