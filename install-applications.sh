@@ -19,6 +19,20 @@ brew cask install iterm2
 brew cask install sparrow
 brew cask install the-unarchiver
 brew cask install sublime-text
+brew cask install emacs
+brew cask install back-in-time
+brew cask install boot-x-changer
+brew cask install colloquy
+brew cask install dia
+brew cask install gitx-l
+brew cask install jumpcut
+brew cask install livestation
+brew cask install macvim
+brew cask install moom
+brew cask install open-office
+brew cask install skype
+brew cask install the-unarchiver
+brew cask install time-machine-editor
 
 brew install perl
 brew install python
