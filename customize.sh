@@ -14,8 +14,8 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 sudo sysctl -w net.inet.tcp.mssdflt=1460
 
 # modify boot time images
-sudo cp BootLogo.png /System/Library/CoreServices/
-sudo cp DefaultDesktop /System/Library/CoreServices/
+sudo cp backgrounds/BootLogo.png /System/Library/CoreServices/
+sudo cp backgrounds/DefaultDesktop.jpg /System/Library/CoreServices/
 
 # Show remaining battery time; hide percentage
 defaults write com.apple.menuextra.battery ShowPercent -string "NO"
@@ -87,7 +87,7 @@ defaults write com.apple.iTunes disablePingSidebar -bool true
 defaults write com.apple.iTunes disablePing -bool true
 
 # Set my preferred desktop background
-sudo cp Solarized-Darker.png "/Library/Desktop Pictures/Solid Colors/"
+sudo cp backgrounds/Solarized-Darker.png "/Library/Desktop Pictures/Solid Colors/"
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "/Library/Desktop Pictures/Solid Colors/Solarized-Darker.png"; };}'
 
 # Show standard unix directories in finder
