@@ -94,7 +94,7 @@ defaults write com.apple.desktop Background '{default = {ImageFilePath = "/Libra
 sudo chflags nohidden /bin /etc /usr
 
 # Install fonts
-sudo cp fonts/* /Library/Fonts/
+cp fonts/* ~/Library/Fonts/
 
 # Kill affected applications
 for app in Safari Finder Dock Mail SystemUIServer; do killall "$app" > /dev/null 2>&1; done
