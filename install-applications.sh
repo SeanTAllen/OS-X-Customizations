@@ -33,6 +33,7 @@ brew cask install open-office
 brew cask install skype
 brew cask install the-unarchiver
 brew cask install time-machine-editor
+brew cask install ireadfast
 
 brew install perl
 brew install python
