@@ -29,7 +29,7 @@ brew cask install jumpcut
 brew cask install livestation
 brew cask install macvim
 brew cask install moom
-brew cask install open-office
+brew cask install libre-office
 brew cask install skype
 brew cask install the-unarchiver
 brew cask install time-machine-editor
