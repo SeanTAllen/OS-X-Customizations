@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# Ask for the administrator password upfront
+sudo -v
+
+# Keep-alive: update existing `sudo` time stamp until `customize.sh` has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 # turn off dashboard - turn back on w/ boolean NO
 defaults write com.apple.dashboard mcx-disabled -boolean YES 
 
