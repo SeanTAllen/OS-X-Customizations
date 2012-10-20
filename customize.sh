@@ -116,6 +116,9 @@ defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 # Restart automatically if the computer freezes
 systemsetup -setrestartfreeze on
 
+# Never go into computer sleep mode
+systemsetup -setcomputersleep Off > /dev/null
+
 # Set my preferred desktop background
 sudo cp backgrounds/Solarized-Darker.png "/Library/Desktop Pictures/Solid Colors/"
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "/Library/Desktop Pictures/Solid Colors/Solarized-Darker.png"; };}'
