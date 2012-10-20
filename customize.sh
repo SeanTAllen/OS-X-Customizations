@@ -6,6 +6,12 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `customize.sh` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# Set computer name (as done via System Preferences → Sharing)
+sudo scutil --set ComputerName "msb"
+sudo scutil --set HostName "msb"
+sudo scutil --set LocalHostName "msb"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "msb"
+
 # turn off dashboard - turn back on w/ boolean NO
 defaults write com.apple.dashboard mcx-disabled -boolean YES 
 
