@@ -132,6 +132,11 @@ sudo chmod 444 /private/var/db/.AccessibilityAPIEnabled
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
+# Automatically illuminate built-in MacBook keyboard in low light
+defaults write com.apple.BezelServices kDim -bool true
+# Turn off keyboard illumination when computer is not used for 5 minutes
+defaults write com.apple.BezelServices kDimTime -int 300
+
 # Set my preferred desktop background
 sudo cp backgrounds/Solarized-Darker.png "/Library/Desktop Pictures/Solid Colors/"
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "/Library/Desktop Pictures/Solid Colors/Solarized-Darker.png"; };}'
