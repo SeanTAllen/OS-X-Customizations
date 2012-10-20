@@ -98,6 +98,9 @@ defaults write com.apple.iTunes disablePingSidebar -bool true
 # Disable all the other Ping stuff in iTunes
 defaults write com.apple.iTunes disablePing -bool true
 
+# Always show scrollbars
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+
 # Set my preferred desktop background
 sudo cp backgrounds/Solarized-Darker.png "/Library/Desktop Pictures/Solid Colors/"
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "/Library/Desktop Pictures/Solid Colors/Solarized-Darker.png"; };}'
