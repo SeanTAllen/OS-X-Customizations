@@ -101,6 +101,9 @@ defaults write com.apple.iTunes disablePing -bool true
 # Always show scrollbars
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
+# Save to disk (not to iCloud) by default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+
 # Set my preferred desktop background
 sudo cp backgrounds/Solarized-Darker.png "/Library/Desktop Pictures/Solid Colors/"
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "/Library/Desktop Pictures/Solid Colors/Solarized-Darker.png"; };}'
