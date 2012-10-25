@@ -17,4 +17,6 @@ wget http://www.lobotomo.com/products/downloads/Fan%20Control%201.2.dmg
 wget http://onnati.net/apptrap/download/AppTrap1-1-7.zip
 # mountain lion cache cleaner
 wget http://www.northernsoftworks.com/downloads/mlcc.dmg
+# echofon
+wget https://dl.dropbox.com/u/3649105/Echofon.app.zip
 
