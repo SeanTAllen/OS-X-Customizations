@@ -7,4 +7,6 @@ wget http://download.virtualbox.org/virtualbox/4.2.2/VirtualBox-4.2.2-81494-OSX.
 wget http://files.vagrantup.com/packages/be0bc66efc0c5919e92d8b79e973d9911f2a511f/Vagrant-1.0.5.dmg
 # pc keyboard hack - remap key codes at the hardware level
 wget http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-8.0.0.dmg
+# KeyRemap4MacBook - keyboard customizer
+wget http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.8.0.dmg
 
