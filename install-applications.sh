@@ -26,7 +26,6 @@ brew cask install dia
 brew cask install gitx-l
 brew cask install jumpcut
 brew cask install livestation
-brew cask install macvim
 brew cask install moom
 brew cask install libre-office
 brew cask install skype
