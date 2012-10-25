@@ -37,6 +37,7 @@ brew cask install dia
 brew cask install keyboard-maestro
 brew cask install ripit
 brew cask install paintbrush
+brew cask install menu-bar-filter
 
 brew install perl
 brew install python
