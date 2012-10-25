@@ -9,4 +9,6 @@ wget http://files.vagrantup.com/packages/be0bc66efc0c5919e92d8b79e973d9911f2a511
 wget http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-8.0.0.dmg
 # KeyRemap4MacBook - keyboard customizer
 wget http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.8.0.dmg
+# choosy - better 'default' browser control
+wget http://downloads.choosyosx.com/choosy_1.0.3.zip
 
