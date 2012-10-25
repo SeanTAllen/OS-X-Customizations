@@ -15,4 +15,6 @@ wget http://downloads.choosyosx.com/choosy_1.0.3.zip
 wget http://www.lobotomo.com/products/downloads/Fan%20Control%201.2.dmg
 # app trap - delete crap w/ app
 wget http://onnati.net/apptrap/download/AppTrap1-1-7.zip
+# mountain lion cache cleaner
+wget http://www.northernsoftworks.com/downloads/mlcc.dmg
 
