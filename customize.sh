@@ -146,6 +146,9 @@ defaults write NSGlobalDomain AppleFontSmoothing -int 2
 # Turn off annoying bounce scroll
 defaults write -g NSScrollViewRubberbanding -int 0
 
+# Make expose animations happen really damn quick
+defaults write com.apple.dock expose-animation-duration -float 0.01
+
 # Set my preferred desktop background
 sudo cp backgrounds/Solarized-Darker.png "/Library/Desktop Pictures/Solid Colors/"
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "/Library/Desktop Pictures/Solid Colors/Solarized-Darker.png"; };}'
