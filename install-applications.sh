@@ -35,6 +35,7 @@ brew cask install the-unarchiver
 brew cask install time-machine-editor
 brew cask install ireadfast
 brew cask install dia
+brew cask install keyboard-maestro
 
 brew install perl
 brew install python
