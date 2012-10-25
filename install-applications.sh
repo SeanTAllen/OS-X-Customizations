@@ -19,7 +19,6 @@ brew cask install iterm2
 brew cask install the-unarchiver
 brew cask install sublime-text
 brew cask install emacs
-brew cask install back-in-time
 brew cask install boot-x-changer
 brew cask install colloquy
 brew cask install dia
