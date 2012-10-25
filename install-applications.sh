@@ -35,6 +35,7 @@ brew cask install time-machine-editor
 brew cask install ireadfast
 brew cask install dia
 brew cask install keyboard-maestro
+brew cask install ripit
 
 brew install perl
 brew install python
