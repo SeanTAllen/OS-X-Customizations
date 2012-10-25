@@ -22,7 +22,6 @@ brew cask install emacs
 brew cask install boot-x-changer
 brew cask install arq
 brew cask install colloquy
-brew cask install dia
 brew cask install gitx-l
 brew cask install jumpcut
 brew cask install livestation
@@ -32,7 +31,6 @@ brew cask install skype
 brew cask install the-unarchiver
 brew cask install time-machine-editor
 brew cask install ireadfast
-brew cask install dia
 brew cask install keyboard-maestro
 brew cask install ripit
 brew cask install paintbrush

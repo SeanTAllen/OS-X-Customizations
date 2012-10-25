@@ -21,4 +21,6 @@ wget http://www.northernsoftworks.com/downloads/mlcc.dmg
 wget https://dl.dropbox.com/u/3649105/Echofon.app.zip
 # eclipse
 wget http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/SR1/eclipse-java-juno-SR1-macosx-cocoa-x86_64.tar.gz&url=http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/juno/SR1/eclipse-java-juno-SR1-macosx-cocoa-x86_64.tar.gz&mirror_id=272
+# omnigraffle pro
+wget http://www.omnigroup.com/download/latest/omnigrafflepro
 
