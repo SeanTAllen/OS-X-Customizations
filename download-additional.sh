@@ -5,4 +5,6 @@ wget http://www.java.net/download/jdk7u10/archive/b13/binaries/jdk-7u10-ea-bin-b
 wget http://download.virtualbox.org/virtualbox/4.2.2/VirtualBox-4.2.2-81494-OSX.dmg
 # vagrant
 wget http://files.vagrantup.com/packages/be0bc66efc0c5919e92d8b79e973d9911f2a511f/Vagrant-1.0.5.dmg
+# pc keyboard hack - remap key codes at the hardware level
+wget http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-8.0.0.dmg
 
