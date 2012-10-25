@@ -13,4 +13,6 @@ wget http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.8.0.dmg
 wget http://downloads.choosyosx.com/choosy_1.0.3.zip
 # fan control
 wget http://www.lobotomo.com/products/downloads/Fan%20Control%201.2.dmg
+# app trap - delete crap w/ app
+wget http://onnati.net/apptrap/download/AppTrap1-1-7.zip
 
