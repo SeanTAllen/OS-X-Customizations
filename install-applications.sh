@@ -20,6 +20,7 @@ brew cask install the-unarchiver
 brew cask install sublime-text
 brew cask install emacs
 brew cask install boot-x-changer
+brew cask install arq
 brew cask install colloquy
 brew cask install dia
 brew cask install gitx-l
