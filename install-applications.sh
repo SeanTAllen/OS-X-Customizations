@@ -36,6 +36,7 @@ brew cask install ripit
 brew cask install paintbrush
 brew cask install menu-bar-filter
 brew cask install changes
+brew cask install candybar
 
 brew install perl
 brew install python
