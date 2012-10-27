@@ -68,4 +68,6 @@ brew install hub
 brew install https://raw.github.com/Homebrew/homebrew-dupes/master/vim.rb
 # install macvim with ruby support for command-t
 brew install macvim
+# fast starting jvm : https://github.com/flatland/drip
+brew install drip
 
