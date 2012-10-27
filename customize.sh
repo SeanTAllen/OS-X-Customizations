@@ -149,6 +149,22 @@ defaults write -g NSScrollViewRubberbanding -int 0
 # Make expose animations happen really damn quick
 defaults write com.apple.dock expose-animation-duration -float 0.01
 
+## Turn off the multitouch gestures that I hate when using a trackpad
+# Tap to click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool false
+# Secondary click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool false
+# Look up
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerTapGesture -int 0
+# Three finger drag
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool false
+# Zoom In/Out
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadPinch -bool false
+# Swipe between full screen apps
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 0
+# Swipe left from right edge
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadTwoFingerFromRightEdgeSwipeGesture -int 0
+
 # Set my preferred desktop background
 sudo cp backgrounds/Solarized-Darker.png "/Library/Desktop Pictures/Solid Colors/"
 defaults write com.apple.desktop Background '{default = {ImageFilePath = "/Library/Desktop Pictures/Solid Colors/Solarized-Darker.png"; };}'
