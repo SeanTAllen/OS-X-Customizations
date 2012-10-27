@@ -25,4 +25,6 @@ wget http://www.eclipse.org/downloads/download.php?file=/technology/epp/download
 wget http://www.omnigroup.com/download/latest/omnigrafflepro
 # totalspace - the ultimate grid spaces manager for your Mac
 wget http://downloads.binaryage.com/TotalSpaces-1.0.1.zip
+# xquartz - x windows manager for osx
+wget http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.4.dmg
 
