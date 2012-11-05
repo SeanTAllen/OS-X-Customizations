@@ -64,8 +64,6 @@ brew install wget
 brew install zsh
 brew install hub
 
-# install vim with ruby support for command-t
-brew install https://raw.github.com/Homebrew/homebrew-dupes/master/vim.rb
 # install macvim with ruby support for command-t
 brew install macvim
 # fast starting jvm : https://github.com/flatland/drip
