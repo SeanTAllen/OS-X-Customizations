@@ -2,6 +2,7 @@
 
 # install homebrew and cask
 ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+brew install git
 brew tap phinze/homebrew-cask
 brew tap homebrew/dupes
 brew install brew-cask
@@ -43,7 +44,6 @@ brew install python
 brew install ruby
 
 brew install bazaar
-brew install git
 brew install mercurial
 brew install subversion
 
