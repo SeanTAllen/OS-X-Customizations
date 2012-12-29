@@ -49,6 +49,7 @@ brew install mercurial
 brew install subversion
 
 brew install ack
+brew install autoconf
 brew install colordiff
 brew install curl
 brew install emacs
