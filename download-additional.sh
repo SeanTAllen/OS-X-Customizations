@@ -17,8 +17,6 @@ wget http://www.lobotomo.com/products/downloads/Fan%20Control%201.2.dmg
 wget http://onnati.net/apptrap/download/AppTrap1-1-7.zip
 # mountain lion cache cleaner
 wget http://www.northernsoftworks.com/downloads/mlcc.dmg
-# echofon
-wget https://dl.dropbox.com/u/3649105/Echofon.app.zip
 # eclipse
 wget http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/juno/SR1/eclipse-java-juno-SR1-macosx-cocoa-x86_64.tar.gz&url=http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/juno/SR1/eclipse-java-juno-SR1-macosx-cocoa-x86_64.tar.gz&mirror_id=272
 # omnigraffle pro
