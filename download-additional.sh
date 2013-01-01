@@ -12,7 +12,7 @@ wget http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.8.0.dmg
 # choosy - better 'default' browser control
 wget http://downloads.choosyosx.com/choosy_1.0.3.zip
 # fan control
-wget http://www.lobotomo.com/products/downloads/Fan%20Control%201.2.dmg
+wget http://www.eidac.de/smcfancontrol/smcfancontrol_2_4.zip
 # app trap - delete crap w/ app
 wget http://onnati.net/apptrap/download/AppTrap1-1-7.zip
 # mountain lion cache cleaner
