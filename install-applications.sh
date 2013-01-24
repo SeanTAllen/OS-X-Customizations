@@ -49,6 +49,7 @@ brew install mercurial
 brew install subversion
 
 brew install ack
+brew install the_silver_searcher
 brew install autoconf
 brew install colordiff
 brew install curl
