@@ -53,7 +53,7 @@ brew install the_silver_searcher
 brew install autoconf
 brew install colordiff
 brew install curl
-brew install emacs
+brew install emacs --cocoa
 brew install findbugs
 brew install ncftp
 brew install openssl
