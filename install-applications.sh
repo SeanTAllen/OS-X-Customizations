@@ -38,9 +38,19 @@ brew cask install menu-bar-filter
 brew cask install changes
 brew cask install candybar
 
-brew install perl
+brew install rbenv
+brew install ruby-build
+rbenv init
+rbenv install 1.9.3-p362
+rbenv install 2.0.0-p0 
+rbenv global 2.0.0-p0 
+gem install bundler compass jekyll RedCloth
+rbenv rehash
+
 brew install python
-brew install ruby
+pip install virtualenv
+
+brew install perl
 brew install erlang
 
 brew install bazaar
