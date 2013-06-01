@@ -64,6 +64,7 @@ brew install colordiff
 brew install curl
 brew install emacs --cocoa
 brew install findbugs
+brew install fish
 brew install ncftp
 brew install openssl
 brew install p7zip
