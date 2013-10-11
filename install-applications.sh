@@ -17,7 +17,6 @@ brew cask install dropbox
 brew cask install firefox
 brew cask install f-lux
 brew cask install iterm2
-brew cask install the-unarchiver
 brew cask install sublime-text
 brew cask install boot-x-changer
 brew cask install arq
