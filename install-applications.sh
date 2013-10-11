@@ -33,6 +33,7 @@ brew cask install ripit
 brew cask install paintbrush
 brew cask install changes
 brew cask install candybar
+brew cask install light-table
 
 brew install rbenv
 brew install ruby-build
