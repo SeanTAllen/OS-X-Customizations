@@ -6,6 +6,7 @@ ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 brew install git
 brew tap phinze/homebrew-cask
 brew tap homebrew/dupes
+brew tap caskroom/versions
 brew install brew-cask
 
 brew cask install google-chrome 
