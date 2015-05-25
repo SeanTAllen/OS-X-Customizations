@@ -20,7 +20,7 @@ brew cask install iterm2
 brew cask install sublime-text
 brew cask install bootxchanger
 brew cask install arq
-brew cask install gitx-l
+brew cask install laullon-gitx
 brew cask install jumpcut
 brew cask install moom
 brew cask install skype
