@@ -26,6 +26,7 @@ brew cask install moom
 brew cask install skype
 brew cask install the-unarchiver
 brew cask install keyboard-maestro
+brew cask install karabiner
 
 brew install rbenv
 brew install ruby-build
