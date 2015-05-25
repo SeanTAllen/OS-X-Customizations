@@ -11,7 +11,6 @@ brew install brew-cask
 
 brew cask install google-chrome 
 brew cask install 1password
-brew cask install adium
 brew cask install alfred
 brew cask install caffeine
 brew cask install dropbox
@@ -23,17 +22,10 @@ brew cask install boot-x-changer
 brew cask install arq
 brew cask install gitx-l
 brew cask install jumpcut
-brew cask install livestation
 brew cask install moom
 brew cask install skype
 brew cask install the-unarchiver
-brew cask install ireadfast
 brew cask install keyboard-maestro
-brew cask install ripit
-brew cask install paintbrush
-brew cask install changes
-brew cask install candybar
-brew cask install light-table
 
 brew install rbenv
 brew install ruby-build
