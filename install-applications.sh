@@ -10,7 +10,7 @@ brew tap caskroom/versions
 brew install brew-cask
 
 brew cask install google-chrome 
-brew cask install one-password
+brew cask install 1password
 brew cask install adium
 brew cask install alfred
 brew cask install caffeine
