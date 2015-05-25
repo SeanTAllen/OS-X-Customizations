@@ -15,7 +15,7 @@ brew cask install alfred
 brew cask install caffeine
 brew cask install dropbox
 brew cask install firefox
-brew cask install f-lux
+brew cask install flux
 brew cask install iterm2
 brew cask install sublime-text
 brew cask install bootxchanger
