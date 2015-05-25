@@ -18,7 +18,7 @@ brew cask install firefox
 brew cask install f-lux
 brew cask install iterm2
 brew cask install sublime-text
-brew cask install boot-x-changer
+brew cask install bootxchanger
 brew cask install arq
 brew cask install gitx-l
 brew cask install jumpcut
