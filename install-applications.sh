@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install homebrew and cask
-ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install git
 brew tap phinze/homebrew-cask
@@ -10,30 +10,23 @@ brew tap caskroom/versions
 brew install brew-cask
 
 brew cask install google-chrome 
-brew cask install one-password
-brew cask install adium
+brew cask install 1password
 brew cask install alfred
 brew cask install caffeine
 brew cask install dropbox
 brew cask install firefox
-brew cask install f-lux
+brew cask install flux
 brew cask install iterm2
 brew cask install sublime-text
-brew cask install boot-x-changer
+brew cask install bootxchanger
 brew cask install arq
-brew cask install gitx-l
+brew cask install laullon-gitx
 brew cask install jumpcut
-brew cask install livestation
 brew cask install moom
 brew cask install skype
 brew cask install the-unarchiver
-brew cask install ireadfast
-brew cask install keyboard-maestro
-brew cask install ripit
-brew cask install paintbrush
-brew cask install changes
-brew cask install candybar
-brew cask install light-table
+brew cask install karabiner
+brew cask install seil
 
 brew install rbenv
 brew install ruby-build
