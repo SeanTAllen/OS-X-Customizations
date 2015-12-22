@@ -74,6 +74,8 @@ brew install wget
 brew install zsh
 brew install hub
 
+brew install ispell --with-lang-en
+
 # install macvim with ruby support for command-t
 brew install macvim
 # fast starting jvm : https://github.com/flatland/drip
