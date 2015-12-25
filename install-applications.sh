@@ -66,6 +66,7 @@ brew install tmux
 brew install wget
 brew install zsh
 brew install hub
+brew install legit
 
 brew install ispell --with-lang-en
 
