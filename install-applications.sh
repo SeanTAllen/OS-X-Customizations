@@ -43,9 +43,7 @@ pip install virtualenv
 brew install perl
 brew install erlang
 
-brew install bazaar
 brew install mercurial
-brew install subversion
 
 brew install ack
 brew install the_silver_searcher
@@ -69,9 +67,4 @@ brew install hub
 brew install legit
 
 brew install ispell --with-lang-en
-
-# install macvim with ruby support for command-t
-brew install macvim
-# fast starting jvm : https://github.com/flatland/drip
-brew install drip
 
