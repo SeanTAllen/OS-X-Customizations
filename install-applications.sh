@@ -9,7 +9,7 @@ brew tap homebrew/dupes
 brew tap caskroom/versions
 brew install brew-cask
 
-brew cask install google-chrome 
+brew cask install google-chrome
 brew cask install 1password
 brew cask install alfred
 brew cask install caffeine
@@ -32,13 +32,15 @@ brew install rbenv
 brew install ruby-build
 rbenv init
 rbenv install 1.9.3-p362
-rbenv install 2.0.0-p0 
-rbenv global 2.0.0-p0 
+rbenv install 2.0.0-p0
+rbenv global 2.0.0-p0
 gem install bundler compass jekyll RedCloth sass bootstrap-sass mdless
 rbenv rehash
 
 brew install python
 pip install virtualenv
+pip install virtualenvwrapper
+mkdir ~/.virtualenvs
 
 brew install perl
 brew install erlang
