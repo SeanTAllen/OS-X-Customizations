@@ -42,22 +42,14 @@ pip install virtualenv
 pip install virtualenvwrapper
 mkdir ~/.virtualenvs
 
-brew install perl
-brew install erlang
-
-brew install mercurial
-
 brew install ack
 brew install the_silver_searcher
 brew install autoconf
 brew install colordiff
 brew install curl
 brew install emacs --cocoa
-brew install findbugs
-brew install fish
 brew install ncftp
 brew install openssl
-brew install p7zip
 brew install pdfgrep
 brew install reattach-to-user-namespace
 brew install rlwrap
@@ -65,7 +57,6 @@ brew install ssh-copy-id
 brew install tmux
 brew install wget
 brew install zsh
-brew install hub
 brew install legit
 
 brew install ispell --with-lang-en
