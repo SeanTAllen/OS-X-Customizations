@@ -57,6 +57,7 @@ brew install tmux
 brew install wget
 brew install zsh
 brew install legit
+brew install ctags
 
 brew install ispell --with-lang-en
 
