@@ -13,7 +13,7 @@ sudo scutil --set LocalHostName "msb"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "msb"
 
 # turn off dashboard - turn back on w/ boolean NO
-defaults write com.apple.dashboard mcx-disabled -boolean YES 
+defaults write com.apple.dashboard mcx-disabled -boolean YES
 
 ### make the dock as unobtrusive as possible
 defaults write com.apple.dock tilesize -int 1
@@ -174,6 +174,9 @@ sudo chflags nohidden /bin /etc /usr
 
 # Install fonts
 cp fonts/* ~/Library/Fonts/
+
+# Karabiner setup
+cp karabiner/* "~/Library/Application Support/Karabiner/"
 
 # Kill affected applications
 for app in Safari Finder Dock Mail SystemUIServer; do killall "$app" > /dev/null 2>&1; done
